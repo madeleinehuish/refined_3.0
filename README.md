@@ -1,2 +1,2 @@
 ### REACT REDUX AUTH TEMPLATE
-This is the code from an amazing tutorial by Stephen Grider on Udemy involving Advanced React and Redux. This particular repo covers authentication, login, signup, signout, tokens, authentication and more. Bare bones but very useful.
+This is a rewrite of a course project from 2 years ago. Version 1 I worked on with Rachelle Rathbone. Goal is to rewire with Redux as well as modernize the code and keep functionality, hopefully improving the app. I have reworked the code based upon a template from a Stephen Grider advanced react/redux course I completed.

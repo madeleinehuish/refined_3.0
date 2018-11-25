@@ -6,10 +6,12 @@ const router = require('./router');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
+
 const app = express();
 
 //DB setup
 mongoose.connect('mongodb://localhost:auth/auth', { useNewUrlParser: true }); //needed to add options for latest version
+mongoose.set('useCreateIndex', true); //need this to avoid server error
 
 //App setup
 app.use(morgan('combined'));
